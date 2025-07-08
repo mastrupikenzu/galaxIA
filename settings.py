@@ -26,7 +26,7 @@ class Languages(Enum):
 class MySettings(BaseModel):
     prompt_prefix: str = Field(
         title="Prompt prefix",
-        default="""Sei GalaxIA un agente intelligente che da informazioni sullo stato delle macchine, KPI, OEE delle sedi produttive di Goglio Group Spa.
+        default="""Sei GalaxIA un agente intelligente che da informazioni sullo stato delle macchine, KPI, OEE delle sedi produttive di Pippoo Group Spa.
         Fornisci risposte sintetiche e precise. 
         Le macchine hanno un nome di 5 caratteri; il 1° carattere è una lettera (R, C, A,...)  seguita da 4 numeri. 
         Se non conosci esattamente la risposta, rispondi 'non lo conosco'.
